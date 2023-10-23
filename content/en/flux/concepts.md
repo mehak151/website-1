@@ -21,7 +21,7 @@ For more information, take a look at the following resources:
 
 In Flux, GitOps Toolkit refers to a collection of specialized tools, Flux Controllers, composable APIs, and reusable Go packages available under the fluxcd GitHub organization. These components are designed for the purpose of constructing Continuous Delivery workflows on Kubernetes using GitOps principles. The GitOps Toolkit serves as the foundation for managing and automating the deployment and configuration of applications and infrastructure within a Kubernetes cluster, promoting a declarative and version-controlled approach to operations.
 
-For more information, take a look at [GitOps Toolkit components](/flux/components)
+For more information, take a look at [GitOps Toolkit components](/flux/components/)
 
 ## Sources
 
@@ -41,7 +41,7 @@ All sources are specified as Custom Resources in a Kubernetes cluster, examples
 of sources are `GitRepository`, `OCIRepository`, `HelmRepository` and `Bucket` resources. 
 
 For more information, take a look at
-[the source controller documentation](components/source/).
+[the source controller documentation](/flux/components/source/).
 
 ## Reconciliation
 
